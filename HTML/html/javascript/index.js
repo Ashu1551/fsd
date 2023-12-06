@@ -76,7 +76,7 @@
 // })
 
 let arr= [{
-    name: 'hello',
+    name: 'new   chang  o',
     id:1
 }, {
     name: 'hii',
