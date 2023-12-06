@@ -1,0 +1,11 @@
+div{
+    background-color: brown;
+    width: 250px;
+    height: 250px;
+    transition: 3s;
+}
+div:hover{
+    border-radius: 50%;
+    background-color: blue;
+    
+}

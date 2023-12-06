@@ -1,0 +1,11 @@
+div{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+div:hover{
+    border-radius: 50%;
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}

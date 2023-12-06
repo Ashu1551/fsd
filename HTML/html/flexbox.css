@@ -1,0 +1,54 @@
+.c{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    
+}
+.p
+{
+    border: 2px solid palevioletred;
+    display: flex;
+    /* justify-content: space-around; */
+
+    /* x - axis */
+    justify-content: center;
+    /* flex-direction: row; */
+
+    /* y-axis */
+    align-content: center;
+
+
+
+    height: 700px;
+    width: 90vw;
+    /* it is use to display comfort with inspect */
+
+    flex-wrap: wrap;
+
+}
+#one {
+     background-color: red;
+     /* flex-basis: 200px; */
+     flex-grow: 2;
+}
+#two{
+    background-color: rgb(85, 0, 255);
+    flex-grow: 1;
+}
+#three{
+    background-color: rgb(255, 0, 225);
+}
+#four{
+    background-color: rgb(0, 255, 38);
+}
+#five{
+    background-color: rgb(15, 15, 15);
+}
+
+
+
+
+
+
+
+

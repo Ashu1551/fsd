@@ -1,0 +1,61 @@
+body{
+    
+.p{
+    background-color: black;
+    color: orangered;
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 24px;
+}
+.c{
+display: flex;
+justify-content: space-evenly;
+width: 350px;
+}
+#one{
+color: white;
+}
+#two{
+    color: white;
+    }
+#three{
+ color: white;
+ }
+#four{
+ color: white;
+  }
+}
+@media screen  and (max-width: 400px){
+    body{
+        flex-wrap: wrap;
+    .p{
+        background-color: black;
+        color: orangered;
+        display: flex;
+        height: 40px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 24px;
+    }
+    .c{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    }
+    #one{
+    color: white;
+    }
+    #two{
+        color: white;
+        }
+    #three{
+     color: white;
+     }
+    #four{
+     color: white;
+      }
+    }
+    
+}
