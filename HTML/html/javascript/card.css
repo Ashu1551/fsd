@@ -1,0 +1,29 @@
+#div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+    }
+    #card{
+        margin-bottom: 10px;
+        width: 20vw;
+        display: flex;
+        color: aliceblue;
+        flex-direction: column;
+        background-color: rgb(79,97,97);
+        padding-left: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 6px black;
+    }
+    #img{
+        width: 50%;
+    /* height: 20%; */
+        border-radius: 10px;
+    }
+    p{
+    
+      flex-wrap: wrap;
+    
+    }
+    

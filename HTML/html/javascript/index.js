@@ -1,4 +1,4 @@
-// let obj={|
+// let obj={
 // name: 'hello'
 // lastname: 'hi'
 // fullName:function(){
@@ -50,11 +50,15 @@
 
 
 //  reduce function
-// let arr=[1,2,3,4,5] 
-// let n=arr.reduce((a,b,index,arr)=>{
-//     return a+b
-// })
-// console.log(n)
+
+
+// a= first element 
+// b= second element
+let arr=[1,2,3,4,5,6] 
+let n=arr.reduce((a,b,index,arr)=>{
+    return a+b
+})
+console.log(n)
 
 // filter function
 // let arr=[1,2,3,4,5,6,7,8,9] 
@@ -75,13 +79,20 @@
     
 // })
 
-let arr= [{
-    name: 'new   chang  o',
-    id:1
-}, {
-    name: 'hii',
-    id:2
-}]
-arr.map((ele)=>{
-    console.log(ele.id)
-})
+// let arr= [{
+//     name: 'new change',
+//     id:1
+// }, {
+//     name: 'hii',
+//     id:2
+// }]
+// arr.map((ele)=>{
+//     console.log(ele.id)
+// })
+
+
+// let arr=[1,2,3,4,5,6,7,8,9] 
+// let new2=arr.find((a)=>{
+//     return a>2
+// })
+// console.log(new2)
